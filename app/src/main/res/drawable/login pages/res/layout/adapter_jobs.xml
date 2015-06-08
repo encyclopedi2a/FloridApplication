@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/jobsAdapterLinearLayout"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="9"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Text"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:id="@+id/jobsAdapterNameTextView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Text"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:id="@+id/jobsAdapterPositionTextView" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/expandable"
+                android:background="@color/white"
+                android:layout_marginTop="10dp">
+
+                <!-- put whatever you want in the expandable view -->
+                <Button
+                    android:id="@+id/jobsAdapterMoreInfoButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_weight="0.5"
+                    android:text="More Info"
+                    android:textSize="15sp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_border" />
+
+                <Button
+                    android:id="@+id/jobsAdapterApplyButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_weight="0.5"
+                    android:textSize="15sp"
+                    android:text="Apply"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_border" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

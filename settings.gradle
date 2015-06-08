@@ -1,0 +1,2 @@
+include ':app', ':Simple Facebook'
+include ':satellitemenu'

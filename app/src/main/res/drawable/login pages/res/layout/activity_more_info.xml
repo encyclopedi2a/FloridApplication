@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/moreInfoActivityLinearLayout"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/moreInfoActivityNameTextView"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:text="Text"
+                android:textColor="@color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_height="0.5dp"
+                android:background="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="200"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="20dp"
+                    android:src="@drawable/position"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="100"
+                    android:layout_height="wrap_content"
+                    android:text="Position"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="90"
+                    android:layout_height="wrap_content"
+                    android:text="Position"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/moreInfoActivityPositionTextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="200"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="20dp"
+                    android:src="@drawable/demand"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="100"
+                    android:layout_height="wrap_content"
+                    android:text="Demand"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="90"
+                    android:layout_height="wrap_content"
+                    android:text="Position"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/moreInfoActivityDemandTextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="200"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="20dp"
+                    android:src="@drawable/salary"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="100"
+                    android:layout_height="wrap_content"
+                    android:text="Salary"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="90"
+                    android:layout_height="wrap_content"
+                    android:text="Position"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/moreInfoActivitySalaryTextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="200"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="20dp"
+                    android:src="@drawable/country"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="100"
+                    android:layout_height="wrap_content"
+                    android:text="Country"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="90"
+                    android:layout_height="wrap_content"
+                    android:text="Position"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/moreInfoActivityCountryTextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="200"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="20dp"
+                    android:src="@drawable/working_hour_per_day"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="100"
+                    android:layout_height="wrap_content"
+                    android:text="Working Hour Per Day"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="90"
+                    android:layout_height="wrap_content"
+                    android:text="Position"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/moreInfoActivityWorkingHPDTextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="200"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="20dp"
+                    android:src="@drawable/annual_leave"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="100"
+                    android:layout_height="wrap_content"
+                    android:text="Annual Leave"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="90"
+                    android:layout_height="wrap_content"
+                    android:text="Position"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/moreInfoActivityAnnualLeaveTextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="200"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="20dp"
+                    android:src="@drawable/contract"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="100"
+                    android:layout_height="wrap_content"
+                    android:text="Contract"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="90"
+                    android:layout_height="wrap_content"
+                    android:text="Contract"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/moreInfoActivityContractTextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="200"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="20dp"
+                    android:src="@drawable/qualification"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="100"
+                    android:layout_height="wrap_content"
+                    android:text="Qualification"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="90"
+                    android:layout_height="wrap_content"
+                    android:text="Position"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/moreInfoActivityQualificationTextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="200"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="20dp"
+                    android:src="@drawable/qualification"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="100"
+                    android:layout_height="wrap_content"
+                    android:text="Overtime"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="90"
+                    android:layout_height="wrap_content"
+                    android:text="Overtime"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/moreInfoActivityOvertimeTextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="200"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="20dp"
+                    android:src="@drawable/overtime"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="100"
+                    android:layout_height="wrap_content"
+                    android:text="Working day per week"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="90"
+                    android:layout_height="wrap_content"
+                    android:text="Overtime"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/moreInfoActivityWorkingDPWTextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="200"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="20dp"
+                    android:src="@drawable/lodging"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="100"
+                    android:layout_height="wrap_content"
+                    android:text="Lodging"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="90"
+                    android:layout_height="wrap_content"
+                    android:text="Lodging"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:id="@+id/moreInfoActivityLodgingTextView" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

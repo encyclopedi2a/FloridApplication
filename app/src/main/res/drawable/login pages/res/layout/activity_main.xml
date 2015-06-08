@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- The main content view -->
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/homeLinearLayout">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/background"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_weight="2.5"
+                        android:layout_width="match_parent"
+
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="1dp"
+                        android:layout_height="0dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="200dp"
+                                android:layout_margin="10dp"
+                                android:layout_height="wrap_content">
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:id="@+id/iv_drawericon"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_margin="10dp"
+                                android:src="@drawable/ic_drawer"/>
+
+                            <ImageView
+                                android:layout_width="200dp"
+                                android:layout_height="50dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/floridlogo"/>
+
+                            <ImageView
+                                android:id="@+id/iv_facebook"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_alignTop="@+id/iv_drawericon"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="10dp"
+                                android:src="@drawable/facebook"/>
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_weight="3.5"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="0dp">
+
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="0dp"
+                            android:orientation="horizontal"
+                            >
+
+                            <LinearLayout
+                                android:id="@+id/linearlayout_about"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:background="@drawable/main_layout_bg"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/home_icon_size"
+                                    android:layout_height="@dimen/home_icon_size"
+                                    android:src="@drawable/ic_aboutus"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/home_text_size"
+                                    android:layout_marginTop="@dimen/home_text_margin"
+                                    android:text="About"/>
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/linearlayout_service"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/main_layout_bg"
+                                android:gravity="center"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/home_icon_size"
+                                    android:layout_height="@dimen/home_icon_size"
+                                    android:src="@drawable/ic_servives"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/home_text_size"
+                                    android:layout_marginTop="@dimen/home_text_margin"
+                                    android:text="Service"/>
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/linearlayout_gallery"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/main_layout_bg"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/home_icon_size"
+                                    android:layout_height="@dimen/home_icon_size"
+                                    android:src="@drawable/gallery"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/home_text_size"
+                                    android:layout_marginTop="@dimen/home_text_margin"
+                                    android:text="Gallery"/>
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginTop="1dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            >
+
+                            <LinearLayout
+                                android:id="@+id/linearlayout_clients"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/main_layout_bg"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/home_icon_size"
+                                    android:layout_height="@dimen/home_icon_size"
+                                    android:src="@drawable/ic_client"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/home_text_size"
+                                    android:layout_marginTop="@dimen/home_text_margin"
+                                    android:text="Clients"/>
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/linearlayout_jobs"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/main_layout_bg"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/home_icon_size"
+                                    android:layout_height="@dimen/home_icon_size"
+                                    android:src="@drawable/ic_job"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/home_text_size"
+                                    android:layout_marginTop="@dimen/home_text_margin"
+                                    android:text="Jobs"/>
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/linearlayout_contact"
+                                android:layout_weight="1"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/main_layout_bg"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="@dimen/home_icon_size"
+                                    android:layout_height="@dimen/home_icon_size"
+                                    android:src="@drawable/ic_contact"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/home_text_size"
+                                    android:layout_marginTop="@dimen/home_text_margin"
+                                    android:text="Contact"/>
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="2"
+                        android:layout_height="0dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/app_footer"
+                                android:layout_height="50dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:textColor="@color/app_green"
+                                    android:layout_marginLeft="20dp"
+                                    android:textSize="18dp"
+                                    android:text="www.hrflorid.com"/>
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="50dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="20dp"
+                                android:layout_marginTop="50dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/footerlogo"/>
+
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </FrameLayout>
+
+        <!-- The navigation drawer -->
+        <ListView android:id="@+id/left_drawer"
+            android:layout_marginTop="55dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp" />
+    </android.support.v4.widget.DrawerLayout>
+
+
+</LinearLayout>

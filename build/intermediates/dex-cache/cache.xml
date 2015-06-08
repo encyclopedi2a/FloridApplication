@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/gokarna/Desktop/FloridApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/gokarna/Desktop/FloridApplication/app/build/intermediates/pre-dexed/debug/classes-be7a5aeb40634ab8529f523694b1d313e7cd7593.jar" />
+    </item>
+    <item
+        jar="/home/gokarna/Desktop/FloridApplication/app/build/intermediates/exploded-aar/me.neavo/volley/2014.12.09/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fba1ad83fb68864551a039aa2148f798dd6ec970">
+        <dex dex="/home/gokarna/Desktop/FloridApplication/app/build/intermediates/pre-dexed/debug/classes-b624baf9127a911212dd6a8e5799bab2834d53b0.jar" />
+    </item>
+    <item
+        jar="/home/gokarna/Desktop/FloridApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/gokarna/Desktop/FloridApplication/app/build/intermediates/pre-dexed/debug/classes-d1b0012ec2669f96b5fef0afb2839427061e5db3.jar" />
+    </item>
+    <item
+        jar="/home/gokarna/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/home/gokarna/Desktop/FloridApplication/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-8c91b0eb1afa0fd41beaf365236d777b5256dac1.jar" />
+    </item>
+    <item
+        jar="/home/gokarna/Desktop/FloridApplication/app/build/intermediates/exploded-aar/FloridApplication/satellitemenu/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="142af1674c61de5a5b99b5c69f3b02469e18ecd4">
+        <dex dex="/home/gokarna/Desktop/FloridApplication/app/build/intermediates/pre-dexed/debug/classes-c2ae4a921af5988e49b8eed69bf33e4d8af403d8.jar" />
+    </item>
+    <item
+        jar="/home/gokarna/Desktop/FloridApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/gokarna/Desktop/FloridApplication/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-2897c9add887115f6734146f6c5c98163aaf98de.jar" />
+    </item>
+
+</items>

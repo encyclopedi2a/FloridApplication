@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<decelerateInterpolator xmlns:android="http://schemas.android.com/apk/res/android" android:factor="1.2"/><!-- From: file:/home/gokarna/Desktop/FloridApplication/satellitemenu/src/main/res/anim/sat_item_click_interpolator.xml --><!-- From: file:/home/gokarna/Desktop/FloridApplication/app/build/intermediates/exploded-aar/FloridApplication/satellitemenu/unspecified/res/anim/sat_item_click_interpolator.xml -->

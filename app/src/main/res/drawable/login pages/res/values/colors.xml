@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mine_shaft">#353535</color>
+    <color name="lochmara">#0076C7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_transparent">#80FFFFFF</color>
+    <color name="cafe_roayle">#76320B</color>
+    <color name="cafe_royale_transparent">#8076320B</color>
+    <color name="black">#000000</color>
+    <color name="black_transparent">#80000000</color>
+    <color name="gray">#C0C0C0</color>
+    <color name="light">#338533</color>
+    <color name="grey">#151515</color>
+    <color name="grey_transparent">#80151515</color>
+    <color name="selected">#ffffff</color>
+    <color name="unselected">#dddddd</color>
+    <color name="red">#680100</color>
+    <color name="sea_shell">#dbdbdb</color>
+    <color name="blue_transparent">#80132F57</color>
+    <color name="yellow">#BE5915</color>
+
+    <color name="app_green">#036F31</color>
+    <color name="app_green_light">#94C5A8</color>
+    <color name="app_green_trans">#CC036F31</color>
+    <color name="app_footer">#BFBBBC</color>
+
+    <color name="green">#036F33</color>
+
+
+</resources>

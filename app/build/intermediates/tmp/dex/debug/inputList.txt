@@ -1,0 +1,7 @@
+/home/gokarna/Desktop/FloridApplication/app/build/intermediates/classes/debug
+/home/gokarna/Desktop/FloridApplication/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-8c91b0eb1afa0fd41beaf365236d777b5256dac1.jar
+/home/gokarna/Desktop/FloridApplication/app/build/intermediates/pre-dexed/debug/classes-c2ae4a921af5988e49b8eed69bf33e4d8af403d8.jar
+/home/gokarna/Desktop/FloridApplication/app/build/intermediates/pre-dexed/debug/classes-b624baf9127a911212dd6a8e5799bab2834d53b0.jar
+/home/gokarna/Desktop/FloridApplication/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-2897c9add887115f6734146f6c5c98163aaf98de.jar
+/home/gokarna/Desktop/FloridApplication/app/build/intermediates/pre-dexed/debug/classes-d1b0012ec2669f96b5fef0afb2839427061e5db3.jar
+/home/gokarna/Desktop/FloridApplication/app/build/intermediates/pre-dexed/debug/classes-be7a5aeb40634ab8529f523694b1d313e7cd7593.jar
